@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.group-1 li:nth-child(2) {
+  color: red;
+  font-weight: bold;
+}
+
+.group-2 tbody tr:first-child {
+  background-color: orange;
+}

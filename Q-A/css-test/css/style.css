@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.include-1 {
+  color: red;
+}
+
+.include-2 {
+  color: blue;
+}
+
+.include-3 {
+  color: green;
+}
+
+.include-1 {
+  color: blue;
+}
+
+#sub-article {
+  color: red;
+}
+
+.selector-2 ul li:first-child {
+  color: red;
+}
