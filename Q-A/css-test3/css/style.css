@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.border-1 {
+  background-color: orange;
+  border: 3px solid;
+}
+
+.border-2 {
+  background-color: orange;
+  border-top: 3px dotted red;
+  border-bottom: 3px dotted red;
+}
+
+.space-1 {
+  background-color: orange;
+  margin-left: 100px;
+}
+
+.space-2 {
+  background-color: orange;
+  padding: 1.2rem;
+}
+
+.background-1 {
+  background-color: orange;
+  height: 400px;
+  background: url("https://source.unsplash.com/FIKD9t5_5zQ/300x200");
+}
+
+.background-2 {
+  background-color: orange;
+  height: 400px;
+  background: url("https://source.unsplash.com/FIKD9t5_5zQ/300x200");
+  background-repeat: no-repeat;
+  background-position: 50px 50px;
+}

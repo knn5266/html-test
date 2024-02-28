@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.item {
+  margin: 10px;
+}
+
+.item img {
+  height: 100px;
+  width: 150px;
+}
+
+.container {
+  background-color: orange;
+  height: 500px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}

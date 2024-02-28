@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.item {
+  margin: 10px;
+}
+
+.item img {
+  height: 100px;
+  width: 150px;
+}
+
+.container {
+  background-color: orange;
+  height: 600px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}

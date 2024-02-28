@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.group-1 {
+  background-color: orange;
+  /*border-width: medium;
+  border-style: solid;
+  border-color: rgb(80, 204, 128);*/
+  border-top: thick solid;
+  border-bottom: thick solid;
+}
+
+.group-2 {
+  background-color: lightblue;
+}
