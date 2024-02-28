@@ -1,20 +1,20 @@
-@charset "UTF-8"";
+@charset "UTF-8";
 
 .item img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .container {
-    background-color: orange;
-    padding: 30px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
+  background-color: orange;
+  padding: 30px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
-.large-item{
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
+.large-item {
+  grid-column: 3/ 4;
+  grid-row: 1 / 3;
 }
