@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>テキスト</title>
+</head>
+<body>
+    <header>
+        <h1 class="display-3 text-center my-4">テキスト</h1>
+    </header>    
+    <div class="container">
+        <h2>配置（横）</h2>
+        <p　class="text-start">.text-startの配置</p>
+        <p class="text-center">.text-centerの配置</p>
+        <p class="text-end">.text-endの配置</p>
+        <hr>
+        <h2>配置（縦）</h2>
+        <table style="height: 200px;">
+            <tbody>
+              <tr>
+                <td class="col-2 align-top">top</td>
+                <td class="col-2 align-middle">middle</td>
+                <td class="col-2 align-bottom">bottom</td>
+              </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h2>折り返し</h2>
+        <div class="badge bg-primary mb-3 text-dark text-wrap" style="width: 6rem;">
+            折り返しありの設定です。
+        </div>
+        <br>
+        <div class="badge bg-primary mb-3 text-dark text-nowrap" style="width: 6rem;">
+            折り返しなしの設定です。
+        </div>
+        <hr>
+        <h2>省略</h2>
+        <div class="row">
+            <div class="col-4 text-truncate">
+                長いテキストを省略して表示します。
+            </div>
+        </div>
+        <hr>
+        <h2>大文字小文字変換</h2>
+        <p class="text-lowercase">Text-Lowercase</p>
+        <p class="text-uppercase">Text-Uppercase</p>
+        <p class="text-capitalize">text-capitaLize</p>
+        <hr>
+        <h2>フォントサイズ</h2>
+        <p class="fs-1">.fs-1 テキスト</p>
+        <p class="fs-2">.fs-2 テキスト</p>
+        <p class="fs-3">.fs-3 テキスト</p>
+        <p class="fs-4">.fs-4 テキスト</p>
+        <p class="fs-5">.fs-5 テキスト</p>
+        <p class="fs-6">.fs-6 テキスト</p>
+        <hr>
+        <h2>文字の太さ・イタリック体</h2>
+        <p class="fw-bold">太字で書かれたテキストです。</p>
+        <p class="fw-light">細字で書かれたテキストです。</p>
+        <p class="fst-italic">イタリック体のテキストです。</p>
+        <hr>
+        <h2>文字装飾</h2>
+        <p class="text-decoration-underline">下線付きのテキストです。</p>
+        <p class="text-decoration-line-through">取り消し線を表示しています。</p>
+        <hr>
+        <br>
+        <br>     
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
