@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>ナビゲーションバー</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="display-3 text-center my-4">ナビゲーションバー</h1>
+    </header>
+    <div class="container">
+      <h2>ナビゲーションバー</h2>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a href="#" class="navbar-bland text-decoration-none">
+            <img src="bootstrap-logo.svg"
+              alt=""
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top">ブランド</a>
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a href="#" class="navlink text-decoration-none">ホーム</a></li>
+            <li class="nav-item"><a href="#" class="navlink text-decoration-none">リンク１</a></li>
+            <li class="nav-item"><a href="#" class="navlink text-decoration-none">リンク２</a></li>
+            <li class="nav-item"><a href="#" class="navlinkext-decoration-none t">リンク３</a></li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nab-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >ドロップダウン</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" class="dropdown-item">メニュー１</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">メニュー２</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">メニュー３</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input type="search" class="form-control me-2" placeholder="検索" />
+            <div class="col-auto">
+              <buttom class="btn btn-outline-success" type="submit"
+                >検索</buttom
+              >
+            </div>
+          </form>
+          <span class="navbar-text ms-2">テキスト</span>
+        </div>
+      </nav>
+    </div>
+      <hr />
+      <h2>レスポンシブ対応</h2>
+
+      <hr />
+      <h2>色</h2>
+
+      <hr />
+      <br />
+      <br />
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
