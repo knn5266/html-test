@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>フレックス</title>
+    <style>
+      div.bg-warning {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="display-3 text-center my-4">フレックス</h1>
+    </header>
+    <div class="container">
+      <h2>方向（横）</h2>
+      <div class="bg-info d-flex flex-row">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <br />
+      <div class="bg-info d-flex flex-row-reverse">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <hr />
+      <h2>方向（縦）</h2>
+      <div class="bg-info d-flex flex-column">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <br />
+      <div class="bg-info d-flex flex-column-reverse">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <hr />
+      <h2>配置（横）</h2>
+      <div class="bg-info d-flex justify-content-start">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <br />
+      <div class="bg-info d-flex justify-content-center">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <br />
+      <div class="bg-info d-flex justify-content-end">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <br />
+      <div class="bg-info d-flex justify-content-around">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <br />
+      <div class="bg-info d-flex justify-content-between">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <br />
+      <div class="bg-info d-flex justify-content-evenly">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <hr />
+      <h2>配置（縦）</h2>
+      <div
+        class="bg-info d-flex flex-column justify-content-center"
+        style="height: 330px"
+      >
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <br />
+      <div
+        class="bg-info d-flex flex-column justify-content-end"
+        style="height: 330px"
+      >
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <br />
+      <div class="bg-info d-flex align-items-start" style="height: 220px">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <br />
+      <div class="bg-info d-flex align-items-center" style="height: 220px">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <br />
+      <div class="bg-info d-flex align-items-end" style="height: 220px">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <br />
+      <div class="bg-info d-flex align-items-baseline" style="height: 220px">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <br />
+      <div class="bg-info d-flex align-items-stretch" style="height: 220px">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <hr />
+      <h2>特定アイテムの配置（縦）</h2>
+      <div class="bg-info d-flex" style="height: 220px">
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning align-self-center">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <hr />
+      <h2>等幅</h2>
+      <div class="bg-info d-flex">
+        <div class="p-4 bg-warning flex-fill">Flex Item 1</div>
+        <div class="p-4 bg-warning flex-fill">Flex Item 2</div>
+        <div class="p-4 bg-warning flex-fill">Flex Item 3</div>
+      </div>
+      <hr />
+      <h2>レスポンシブ対応</h2>
+      <div
+        class="bg-info d-flex justify-content-md-start justify-content-center"
+      >
+        <div class="p-4 bg-warning">Flex Item 1</div>
+        <div class="p-4 bg-warning">Flex Item 2</div>
+        <div class="p-4 bg-warning">Flex Item 3</div>
+      </div>
+      <hr />
+      <br />
+      <br />
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
