@@ -35,3 +35,17 @@
   text-align: center;
   color: #fff;
 }
+
+#top-message img {
+  margin-top: -50px;
+}
+
+#top-message .card:hover {
+  background: #69c099;
+  color: #fff;
+}
+
+#table-info tr:hover {
+  background-color: #69c099;
+  color: #fff;
+}
